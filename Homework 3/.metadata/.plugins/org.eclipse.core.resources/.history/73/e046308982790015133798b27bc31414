@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Zad8 {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner(System.in);
+		
+		System.out.println("Please enter a word: ");
+		String word = test.nextLine();
+		
+		System.out.println("Which number of symbols do you looking for");
+		int N = test.nextInt();
+				
+		System.out.print("The N symbol of the word is: ");
+		System.out.print(word.charAt(N));
+
+	}
+
+}

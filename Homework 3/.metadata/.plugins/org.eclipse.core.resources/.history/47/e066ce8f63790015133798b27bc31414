@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Zad6 {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner (System.in);
+		
+		System.out.println("Please enter a real number");
+		double realNum = test.nextDouble ();
+		
+		System.out.println("Please enter an integer: ");
+		int cyalo = test.nextInt();
+		
+		System.out.print("realNum / cyalo = ");
+		System.out.println (realNum / cyalo);
+
+	}
+
+}
