@@ -7,14 +7,14 @@ public class Zad2 {
 		
 		String Right = "Hello";
 			
-		System.out.print ("Looking for ");
+		System.out.print ("Right is ");
 		System.out.println (Right);
 		
-		System.out.println("Enter e word ");
+		System.out.print("Enter e word ");
 		String New = test.nextLine();
 		
 		boolean RightmeansNew = Right.equals(New);
-	
+		System.out.print ("Right == New: ");
 		System.out.println(RightmeansNew);
 		
 			
