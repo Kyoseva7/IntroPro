@@ -9,8 +9,6 @@ public class Zad1 {
 		int a = input.nextInt();
 
 		switch (a) {
-		case 0:
-			System.out.println("zero");
 		case 1:
 			System.out.println("one");
 			break;
