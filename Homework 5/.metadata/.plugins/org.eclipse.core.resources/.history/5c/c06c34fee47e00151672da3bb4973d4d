@@ -1,0 +1,12 @@
+
+public class Ex42 {
+
+	public static void main(String[] args) {
+		for (int a = 1; a <= 100; a++) {
+			if (a % 11 != 0 || a % 7 != 0) {
+				continue;
+			}
+			System.out.println(a);
+		}
+	}
+}

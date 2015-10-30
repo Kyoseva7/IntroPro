@@ -1,0 +1,15 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		int N = 1;
+		int M = 4;
+		
+		long stepen = 1;
+		
+		for (int i = 1; i <= M; i++){
+			stepen = stepen * N;
+		}
+		System.out.println ( N + " * " + M + " = " + stepen);
+	}
+}

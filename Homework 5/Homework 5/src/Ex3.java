@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a = 0;
+		int sum = 0;
+		do {
+			System.out.println("Please enter number");
+			a = input.nextInt();
+			sum = 0;
+			sum = sum + a;
+		} while (a == 0);
+		input.close();
+	}
+}

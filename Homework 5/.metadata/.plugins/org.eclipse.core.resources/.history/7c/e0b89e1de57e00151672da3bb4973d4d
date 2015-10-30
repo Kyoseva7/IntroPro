@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Zad3 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Vuvedete 6 chisla: ");
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int c = input.nextInt();
+		int d = input.nextInt();
+		int e = input.nextInt();
+		int f = input.nextInt();
+		int min = 0;
+		int max = 0;
+		if (a < b) {
+			min = a;
+			max = b;
+		}
+		if (c < a) {
+			min = c;			
+		}
+		if (d < a) {
+			min = d;			
+		}
+		if (e < a) {
+			min = c;			
+		}
+		if (f < a) {
+			min = c;			
+		}
+		if (c > b) {
+			max = c;
+		}
+		if (d > b) {
+			max = c;
+		}
+		if (e > b) {
+			max = c;
+		}
+		if (f > b) {
+			max = c;
+		}
+		System.out.print("Nai-malkoto chislo e: ");
+		System.out.println(min);
+		System.out.print("Nai-golqmoto chislo e: ");
+		System.out.println(max);
+		input.close();
+	}
+}

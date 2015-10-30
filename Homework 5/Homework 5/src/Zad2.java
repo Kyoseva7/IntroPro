@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Zad2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Vuvedete chislo: ");
+		int n = input.nextInt();
+		for (int a = 1; a <= n; a++){
+			if (a % 3 != 0 && a % 7 != 0){
+			System.out.println(a);
+			}
+		}
+		input.close();
+	}
+}

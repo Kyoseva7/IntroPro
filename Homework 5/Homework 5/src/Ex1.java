@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter n:");
+		int n = input.nextInt();
+
+		int count = 1;
+
+		while (count <= n) {
+			if (count % 2 == 1) {
+				System.out.println(count);
+			}
+			count++;
+		}
+		input.close();
+	}
+}
