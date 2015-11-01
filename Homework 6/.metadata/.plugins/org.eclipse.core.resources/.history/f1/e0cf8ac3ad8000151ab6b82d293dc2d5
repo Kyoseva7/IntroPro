@@ -1,0 +1,13 @@
+
+public class Zad2 {
+
+	public static void main(String[] args) {
+		int[] Fibo = new int[12];
+	
+		for (int i = 1; i < Fibo.length; i++){
+			Fibo[i] = i + (i - 1);
+			System.out.println("Fibo[" + i + "]" + " = " + Fibo[i]);
+		}
+	}
+
+}

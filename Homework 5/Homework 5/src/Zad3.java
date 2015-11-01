@@ -11,8 +11,8 @@ public class Zad3 {
 		int d = input.nextInt();
 		int e = input.nextInt();
 		int f = input.nextInt();
-		int min = 0;
-		int max = 0;
+		int min;
+		int max;
 		if (a < b) {
 			min = a;
 			max = b;

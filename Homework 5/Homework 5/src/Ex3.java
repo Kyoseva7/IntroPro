@@ -9,9 +9,10 @@ public class Ex3 {
 		do {
 			System.out.println("Please enter number");
 			a = input.nextInt();
-			sum = 0;
 			sum = sum + a;
 		} while (a == 0);
 		input.close();
+	System.out.print("The sum is");
+	System.out.println(sum);
 	}
 }
