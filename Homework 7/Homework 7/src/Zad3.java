@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Zad3 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Vuvedete chislo");
+		int a = input.nextInt();
+		System.out.println("Vuvedete po-golqmo chislo");
+		int b = input.nextInt();
+		while (a > b){
+			System.out.println("Vuvedete otnovo chislo po-golqmo ot " + a);
+			b = input.nextInt();
+		}
+		for (int i = a; i < b; i++){
+			if (i % 3 == 0){
+				System.out.println(i);
+			}
+		}
+		input.close();
+	}
+}

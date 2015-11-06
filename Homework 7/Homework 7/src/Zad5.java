@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Zad5 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Vuvedete razmera na masiva");
+		int n = input.nextInt();
+		int sum = 0;
+		int[][] arr = new int[n][n];
+		System.out.println("Vuvedete chislata na masiva");
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				arr[i][j] = input.nextInt();
+			}
+		}
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				if (i == j) {
+					sum = sum + arr[i][j];
+				}
+				if (arr[i][j] == arr[n - 1][n - 1]) {
+					System.out.println("Sumata na glavniq diagonal e " + sum);
+				}
+			}
+			System.out.println();
+		}
+		input.close();
+	}
+}

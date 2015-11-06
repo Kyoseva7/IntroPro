@@ -1,0 +1,21 @@
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		int Array[][] = new int [4][4];
+		for (int row = 0; row < Array.length; row++){
+			for (int col = 0; col < Array[row].length; col++){
+				int n = 0;
+				Array[row][col] = n;
+				n--;
+			}
+		}
+		for (int row = 0; row < Array.length; row++){
+			for (int col = 0; col < Array[row].length; col++){
+				int n = 0;
+				System.out.print("Array [" + row + "][" + col + "] = " + " " + Array[row][col]);
+			}
+		}
+	}
+
+}
