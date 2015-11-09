@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Zad4 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int c = input.nextInt();
+		int max = MaxNumber(a, b);
+		MaxNumber(max,c);
+		input.close();
+	}
+	public static int MaxNumber(int a, int b){
+		if (a > b){
+			return a;
+		} else {
+			return b;
+		}
+	}
+}

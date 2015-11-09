@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Zad2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Vuvedete 3 celi chisla: ");
+		int num1 = 2;
+		int num2 = 3;
+		int num3 = 4;
+		multiplyInt(num1, num2, num3);
+		input.close();
+	}
+	public static int multiplyInt(int a, int b, int c) {
+		int mul = a * b * c;
+		return mul;
+	}
+}

@@ -1,0 +1,25 @@
+
+public class Zad3 {
+
+	public static void main(String[] args) {
+		int[] arr = new int[] { 1, 23, 43, 44, 42, 45, 67, 11, 89, 87 };
+		int max = arr[0];
+		int min = arr[1];
+		for (int i = 0; i < arr.length; i++) {
+			if (i % 2 == 0) {
+				if (max < arr[i]) {
+					max = arr[i];
+				}
+			}
+		}
+		for (int i = 0; i < arr.length; i++) {
+			if (i % 2 != 0) {
+				if (min > arr[i]) {
+					min = arr[i];
+				}
+			}
+		}
+		System.out.println("min is: " + min);
+		System.out.println("max is: " + max);
+	}
+}

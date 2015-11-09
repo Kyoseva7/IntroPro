@@ -1,0 +1,17 @@
+
+public class Zad1 {
+
+	public static void main(String[] args) {
+		int[] arr1 = new int[] { 12, 43, 6, -67, -5, 4, 76, 34, -54, 34, 55, 2, 4 };
+		int[] arr2 = new int[] { 23, 43, 55, 66, -5, -23, 1, 2, 43, 55, 32, -54 };
+		for (int i = 0; i < arr1.length; i++) {
+			for (int j = 0; j < arr2.length; j++) {
+				if (arr1[i] == arr2[j]) {
+					System.out.println("arr1[" + i + "]: " + arr1[i] + " = arr2[" + j + "]: " + arr2[j]);
+				}
+			}
+		}
+
+	}
+
+}

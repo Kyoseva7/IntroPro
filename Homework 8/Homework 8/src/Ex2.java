@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Vuvedete 2 chisla: ");
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int sum = sum(a, b);
+		System.out.println(sum);
+		input.close();
+	}
+
+	public static int sum(int a, int b) {
+		int suma = a + b;
+		return suma;
+	}
+}
