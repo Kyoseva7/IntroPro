@@ -9,7 +9,8 @@ public class Zad22 {
 			int num1 = input.nextInt();
 			int num2 = input.nextInt();
 			int num3 = input.nextInt();
-			multiplyInt(num1, num2, num3);
+			int result = multiplyInt(num1, num2, num3);
+			System.out.println(result);
 		}
 		input.close();
 	}

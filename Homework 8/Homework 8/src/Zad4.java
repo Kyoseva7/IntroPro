@@ -8,12 +8,14 @@ public class Zad4 {
 		int a = input.nextInt();
 		int b = input.nextInt();
 		int c = input.nextInt();
-		int max = MaxNumber(a, b);
-		MaxNumber(max,c);
+		int max = maxNumber(a, b);
+		maxNumber(max, c);
+		System.out.print(maxNumber(max,c));
 		input.close();
 	}
-	public static int MaxNumber(int a, int b){
-		if (a > b){
+
+	public static int maxNumber(int a, int b) {
+		if (a > b) {
 			return a;
 		} else {
 			return b;
